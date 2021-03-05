@@ -1,0 +1,52 @@
+html {
+	border-style: solid;
+	border-color: #007A33;
+	border-width: 20px;
+	margin: 0px;
+}
+
+nav {
+	font-size: x-large;
+	width: 100%;
+}
+
+nav a {
+	background-color: #BA9653;
+	float: left;
+	color: Black;
+	text-decoration: none;
+	width: 33%;
+	text-align: left;
+}
+
+.active {
+	color: #007A33;
+	font-weight: bold;
+	text-align: center;
+	background-color: #E59E6D;
+}
+
+.inactive {
+	text-align: center;
+}
+
+a:visited {
+	color: Black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #007A33;
+	background-color: #E59E6D;
+	text-decoration: overline;
+	font-weight: bold;
+}
+
+nav a:hover{
+	border-style: solid;
+}
+
+table {
+	width: 100%;
+	text-align: justify;
+}
