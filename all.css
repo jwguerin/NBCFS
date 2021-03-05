@@ -37,16 +37,19 @@ a:visited {
 
 a:hover {
 	color: #007A33;
-	background-color: #E59E6D;
-	text-decoration: overline;
 	font-weight: bold;
 }
 
 nav a:hover{
+	background-color: #E59E6D;
 	border-style: solid;
 }
 
 table {
 	width: 100%;
 	text-align: justify;
+}
+
+img{
+	border: 10px solid white;
 }
